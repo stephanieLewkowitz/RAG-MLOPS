@@ -76,7 +76,8 @@ RUN pip3 install --no-cache-dir \
     packaging \
     ninja \
     wheel \
-    setuptools 
+    setuptools \
+    mlflow
 
 
 # Step 3: Install Flash Attention (now able to safely find torch)
@@ -97,11 +98,13 @@ WORKDIR /notebooks
 
 # Expose the port for Jupyter
 EXPOSE 8008
+EXPOSE 5000
 
 # Command to run Jupyter Notebook on container start
 # --ip=0.0.0.0 allows connections from outside the container
 # --allow-root is necessary if running as the default root user
 CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--port=8008", "--no-browser", "--allow-root"]
+CMD ["mlflow", "ui", "--host", "0.0.0.0", "--port", "5000"]
 
 
 
