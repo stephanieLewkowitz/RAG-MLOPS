@@ -215,22 +215,10 @@ Multimodal workflows allow the system to process text, audio, and images togethe
 
 Agentic workflows can coordinate multiple steps such as retrieve policy, check claim status, verify eligibility, generate explanation, and draft follow-up email. Continuous learning loops use feedback and monitoring data to improve prompts, retrieval quality, chunking strategies, and knowledge base freshness.
 
----
-
-# How the Two Diagrams Work Together
-
-The main workflow diagram explains the business architecture at a level appropriate for hiring managers, product owners, and enterprise stakeholders. It answers the question: “How does an AI-powered claims assistant fit into the claims call center workflow?”
-
-The Python application layer diagram explains the technical implementation at a level appropriate for ML engineers, AI engineers, and platform teams. It answers the question: “What tools, frameworks, models, and infrastructure would we use to build this system?”
-
-Together, the diagrams show both strategic systems thinking and hands-on implementation awareness. The first diagram demonstrates business alignment, operational flow, and governance. The second diagram demonstrates technical depth, open-source awareness, PyTorch familiarity, cloud deployment thinking, and modern RAG engineering practices.
-
----
-
 
 # Summary
 
-The main workflow diagram is the executive-level architecture, while the Python layer diagram is the implementation-level architecture. The system is RAG-centered because claims agents need grounded answers from policy documents, claims records, procedures, and source citations.
+The main workflow diagram is the business architecture, while the Python layer diagram is the implementation-level architecture. The system is RAG-centered because claims agents need grounded answers from policy documents, claims records, procedures, and source citations.
 
 The architecture also includes OCR for documents, speech-to-text for call recordings, vector databases for semantic retrieval, reranking for retrieval quality, LLM generation for natural language responses, monitoring for drift and answer quality, and security controls for PII/PHI protection.
 
