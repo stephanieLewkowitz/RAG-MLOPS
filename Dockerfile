@@ -77,7 +77,8 @@ RUN pip3 install --no-cache-dir \
     ninja \
     wheel \
     setuptools \
-    mlflow
+    mlflow \
+    sentence-transformers
 
 
 # Step 3: Install Flash Attention (now able to safely find torch)
@@ -111,6 +112,8 @@ CMD bash -c "mlflow ui --host 0.0.0.0 --port 5000 & jupyter notebook --ip=0.0.0.
 
 #docker build -t rag-gpu-jupyter .
 # from root dir with data 
-#docker run --gpus all -it -p 8888:8888 -p 5000:5000 -v "$(pwd):/notebooks" -e GOOGLE_APPLICATION_CREDENTIALS="/notebooks/service-account-key.json" --env-file "$(pwd)/.env"  rag-gpu-jupyter
+#docker run --gpus all -it -p 8008:8008  -p 5000:5000 -v "$(pwd):/notebooks" -e GOOGLE_APPLICATION_CREDENTIALS="/notebooks/service-account-key.json" --env-file "$(pwd)/.env"  rag-gpu-jupyter
+
+#docker run --gpus all -it -p 8008:8008 -p 5000:5000 -v "$(pwd):/notebooks"  rag-gpu-jupyter
 
 
