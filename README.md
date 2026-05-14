@@ -227,10 +227,12 @@ Together, the diagrams show both strategic systems thinking and hands-on impleme
 
 ---
 
-# Interview Summary
 
-A strong way to present these diagrams in an interview is to explain that the main workflow diagram is the executive-level architecture, while the Python layer diagram is the implementation-level architecture. The system is RAG-centered because claims agents need grounded answers from policy documents, claims records, procedures, and source citations.
+# Summary
+
+The main workflow diagram is the executive-level architecture, while the Python layer diagram is the implementation-level architecture. The system is RAG-centered because claims agents need grounded answers from policy documents, claims records, procedures, and source citations.
 
 The architecture also includes OCR for documents, speech-to-text for call recordings, vector databases for semantic retrieval, reranking for retrieval quality, LLM generation for natural language responses, monitoring for drift and answer quality, and security controls for PII/PHI protection.
 
-The key message is that this is not just a chatbot. It is a production-oriented claims support platform that combines enterprise data engineering, RAG, MLOps, LLMOps, cloud infrastructure, monitoring, governance, and human-in-the-loop workflows to help agents answer customer questions more accurately and efficiently.
+This is not just a chatbot. It is a production-oriented claims support platform that combines enterprise data engineering, RAG, MLOps, LLMOps, cloud infrastructure, monitoring, governance, and human-in-the-loop workflows to help agents answer customer questions more accurately and efficiently.
+
