@@ -2,11 +2,13 @@
 
 Synthetic healthcare claims and call-center forecasting pipeline built with Random Forest regression, engineered time-series features, and MLflow experiment tracking.
 
-The project simulates operational healthcare workloads with:
+The project simulates operational workloads with:
 - weekly and annual seasonality
 - growth trends
 - random operational noise
 - event-driven spikes
+
+![Claims Call Volume Forecasting](images/forecast_artifact.png)
 
 ## Features
 - Synthetic time-series data generation
@@ -19,7 +21,7 @@ The project simulates operational healthcare workloads with:
 
 ## MLflow Metrics
 
-![MLflow Metrics](images/mlflow_metrics.png)
+![MLflow Metrics](images/mlflow_metrics_localserver.png)
 
 ## Example Artifacts
 - Forecast vs Actual plots
