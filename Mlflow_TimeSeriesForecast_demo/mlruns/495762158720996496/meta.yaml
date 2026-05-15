@@ -1,0 +1,8 @@
+artifact_location: /notebooks/TimeSeriesForecast_MLOPS_demo/mlruns/495762158720996496
+creation_time: 1778781059013
+experiment_id: '495762158720996496'
+last_update_time: 1778781059013
+lifecycle_stage: active
+name: claims_call_volume_forecasting
+trace_location: null
+workspace: default
