@@ -98,3 +98,6 @@ This repository includes CI workflows for:
 - Time-series forecasting
 - Local GPU development with Docker
 - AI engineering interview / portfolio projects
+
+
+![MLOPS Engineering Lifecycle](images/mlops_diagram.png)

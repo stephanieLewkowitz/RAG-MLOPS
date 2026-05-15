@@ -224,3 +224,4 @@ The architecture also includes OCR for documents, speech-to-text for call record
 
 This is not just a chatbot. It is a production-oriented claims support platform that combines enterprise data engineering, RAG, MLOps, LLMOps, cloud infrastructure, monitoring, governance, and human-in-the-loop workflows to help agents answer customer questions more accurately and efficiently.
 
+![RAG in detail](images/rag.png)
