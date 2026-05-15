@@ -1,0 +1,10 @@
+artifact_location: /notebooks/TimeSeriesForecast_MLOPS_demo/mlruns/495762158720996496/models/m-1827dc07054b41d3a9965d55809cecf7/artifacts
+creation_timestamp: 1778791202617
+experiment_id: '495762158720996496'
+last_updated_timestamp: 1778791210604
+model_id: m-1827dc07054b41d3a9965d55809cecf7
+model_type: null
+name: model
+source_run_id: b61afbb9dad64661ba2ab919aeffe63c
+status: 2
+status_message: null

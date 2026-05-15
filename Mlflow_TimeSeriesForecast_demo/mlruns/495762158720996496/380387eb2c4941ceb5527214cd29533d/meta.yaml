@@ -1,0 +1,14 @@
+artifact_uri: /notebooks/TimeSeriesForecast_MLOPS_demo/mlruns/495762158720996496/380387eb2c4941ceb5527214cd29533d/artifacts
+end_time: 1778781069972
+entry_point_name: ''
+experiment_id: '495762158720996496'
+lifecycle_stage: active
+run_id: 380387eb2c4941ceb5527214cd29533d
+run_name: random_forest_claims_forecast
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1778781059670
+status: 3
+tags: []
+user_id: root

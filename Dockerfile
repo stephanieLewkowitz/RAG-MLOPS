@@ -99,14 +99,14 @@ WORKDIR /notebooks
 
 # Expose the port for Jupyter
 EXPOSE 8008
-EXPOSE 5000
+EXPOSE 5001
 
 # Command to run Jupyter Notebook on container start
 # --ip=0.0.0.0 allows connections from outside the container
 # --allow-root is necessary if running as the default root user
 # CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--port=8008", "--no-browser", "--allow-root"]
-# CMD ["mlflow", "ui", "--host", "0.0.0.0", "--port", "5000"]
-CMD bash -c "mlflow ui --host 0.0.0.0 --port 5000 & jupyter notebook --ip=0.0.0.0 --port=8008 --no-browser --allow-root"
+# CMD ["mlflow", "ui", "--host", "0.0.0.0", "--port", "5001"]
+CMD bash -c "mlflow ui --host 0.0.0.0 --port 5001 & jupyter notebook --ip=0.0.0.0 --port=8008 --no-browser --allow-root"
 
 
 
